@@ -1,5 +1,5 @@
 ---
-title: "Programa de Prevención y Control del Dengue | 2024"
+title: "Programa de Prevención y Control del Dengue | 2025"
 format: 
   dashboard:
     nav-buttons: [twitter, github, facebook]
@@ -871,6 +871,7 @@ deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
                            locality = "Mérida",
                            cve_edo = "31",
                            palette = rcartocolor::carto_pal,
+                           static_map = TRUE,
                            name = "SunsetDark")
 ```
 
@@ -880,6 +881,7 @@ deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
 deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
                            locality = "Valladolid",
                            cve_edo = "31",
+                           static_map = TRUE,
                            palette = rcartocolor::carto_pal,
                            name = "SunsetDark")
 ```
@@ -891,6 +893,7 @@ deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
 deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
                            locality = "Tizimin",
                            cve_edo = "31",
+                           static_map = TRUE,
                            palette = rcartocolor::carto_pal,
                            name = "SunsetDark")
 ```
@@ -914,6 +917,7 @@ body {min-height: 100vh; }
 deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
                            locality = "Ticul",
                            cve_edo = "31",
+                           static_map = TRUE,
                            palette = rcartocolor::carto_pal,
                            name = "SunsetDark")
 ```
@@ -927,6 +931,7 @@ deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
 deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
                            locality = "Tekax de Alvaro Obregon",
                            cve_edo = "31",
+                           static_map = TRUE,
                            palette = rcartocolor::carto_pal,
                            name = "SunsetDark")
 ```
@@ -937,6 +942,7 @@ deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
 deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
                            locality = "Peto",
                            cve_edo = "31",
+                           static_map = TRUE,
                            palette = rcartocolor::carto_pal,
                            name = "SunsetDark")
 ```
@@ -947,6 +953,7 @@ deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
 deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
                            locality = "Oxkutzcab",
                            cve_edo = "31",
+                           static_map = TRUE,
                            palette = rcartocolor::carto_pal,
                            name = "SunsetDark")
 ```
